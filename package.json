@@ -1,0 +1,17 @@
+{
+  "name": "magicmirror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Matthew Lennon",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.7.0",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "requirejs": "^2.3.4"
+  }
+}
