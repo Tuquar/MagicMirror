@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "amd"
+    },
+    "include": [
+        "./test-main.ts",
+        "./tests/*",
+        "./www/app/*"
+    ]
+    
+}

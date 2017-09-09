@@ -13,5 +13,10 @@
     "jasmine-core": "^2.7.0",
     "karma": "^1.7.0",
     "requirejs": "^2.3.4"
+  },
+  "dependencies": {
+    "@types/jasmine": "^2.5.53",
+    "@types/requirejs": "^2.1.31",
+    "karma-requirejs": "^1.1.0"
   }
 }

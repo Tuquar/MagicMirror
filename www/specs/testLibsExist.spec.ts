@@ -1,4 +1,4 @@
-
+import app = require("app");
 
 describe('Librarys exist', function(){
     it('should have requirejs', function(){

@@ -10,15 +10,15 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine', 'requirejs'],
 
 
     // list of files / patterns to load in the browser
     files: [
       // {pattern: 'www/libs/require.js', included: true},
-      {pattern: 'www/libs/*.js', included: true},
-      'www/app.js',
-      {pattern: 'tests/testRunner.js', included: true}
+      {pattern: 'www/app.js', included: false},
+      {pattern: 'www/libs/*.js', included: false},
+      {pattern: 'tests/.js', included: false}
     ],
 
 
@@ -36,7 +36,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['dots'],
 
 
     // web server port
